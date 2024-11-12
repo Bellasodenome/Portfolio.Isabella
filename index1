@@ -1,12 +1,179 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500"
+    />
+    <title>HTML Preview</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="compiled-styles.css" />
+  </head>
+  <body style="margin: 0px">
+    <!-- This only removes default margins in our renderer iframe, you may remove -->
+    <div id="firejet-html-app">
+      <div class="desktop-wrapper">
+        <div class="desktop-desktop">
+          <div class="desktop-image">
+            <div class="desktop-rectangle">
+              <div class="desktop-ttt-isabella-pereira-moedano-image-3contato">
+                <div class="desktop-tt-isabella-pereira-moedano-image-3contato">
+                  <div class="desktop-t-isabella-pereira-moedano-image">
+                    <div class="desktop-isabella-pereira-moedano">
+                      <p>Isabella Pereira Moedano</p>
+                    </div>
+                    <img
+                      src="/assets/image-1.png"
+                      loading="lazy"
+                      class="desktop-image-1"
+                    />
+                  </div>
+                  <div class="desktop-contato"><p>Contato</p></div>
+                </div>
+              </div>
+              <div class="desktop-tt-ghjkl-asodpkpoqk-trb_1367281tdocumentos-11tlinkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
+                <div class="desktop-t-ghjkl-asodpkpoqk">
+                  <div class="desktop-ghjkl-asodpkpoqk">
+                    <p>ghjklçasodpkpoqk</p>
+                  </div>
+                </div>
+                <div class="desktop-t-rb_1367281tdocumentos-11tlinkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
+                  <img
+                    src="/assets/rb_.png"
+                    loading="lazy"
+                    class="desktop-rb_"
+                  />
+                  <div class="desktop-t-documentos">
+                    <div class="desktop-documentos"></div>
+                  </div>
+                  <div class="desktop-t-linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
+                    <img
+                      src="/assets/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"
+                      loading="lazy"
+                      class="desktop-linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-image-2"></div>
+              <img
+                src="/assets/image-3.png"
+                loading="lazy"
+                class="desktop-image-3"
+              />
+            </div>
+            <div class="desktop-t-rectangle-2rectangle">
+              <div class="desktop-rectangle-1">
+                <div class="desktop-rectangle-2">
+                  <div class="desktop-t-projetos">
+                    <div class="desktop-projetos">Projetos</div>
+                  </div>
+                </div>
+                <div class="desktop-tttt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
+                  <div class="desktop-ttt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
+                    <div class="desktop-tt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
+                      <div class="desktop-t-rectangle-7ttbla-bla-bla-dfghijokplfdkak-l" >
+                        <div class="desktop-rectangle-3"></div>
+                        <div class="desktop-tt-bla-bla-bla-dfghijokplfdkak-l">
+                          <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l">
+                            <div class="desktop-bla-bla-bla">bla bla bla</div>
+                            <div class="desktop-dfghijokplfdkak-l">
+                              <p>dfghijokplfdkakçl</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="desktop-t-rectangle-8tbla-bla-bla-dfghijokplfdkak-l" >
+                        <div class="desktop-rectangle-4"></div>
+                        <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l1">
+                          <div class="desktop-bla-bla-bla-1">bla bla bla</div>
+                          <div class="desktop-dfghijokplfdkak-l1">
+                            <p>dfghijokplfdkakçl</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="desktop-t-rectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
+                        <div class="desktop-rectangle-5"></div>
+                        <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l2">
+                          <div class="desktop-bla-bla-bla-2">bla bla bla</div>
+                          <div class="desktop-dfghijokplfdkak-l2">
+                            <p>dfghijokplfdkakçl</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="desktop-rectangle-6">
+                <div class="desktop-rectangle-7">
+                  <div class="desktop-t-skills">
+                    <div class="desktop-skills">Skills</div>
+                  </div>
+                </div>
+                <div class="desktop-tttt-pacote-office-rectangle-20ttcanva-rectangle-10ttfigma-rectangle-11ttadobe-ilustrator-rectangle-12ttadobe-photoshop-rectangle-13ttadobe-indesign-rectangle" >
+                  <div class="desktop-ttt-pacote-office-rectangle-20ttcanva-rectangle-10ttfigma-rectangle-11ttadobe-ilustrator-rectangle-12ttadobe-photoshop-rectangle-13ttadobe-indesign-rectangle" >
+                    <div class="desktop-tt-pacote-office-rectangle">
+                      <div class="desktop-t-pacote-office">
+                        <div class="desktop-pacote-office">Pacote Office</div>
+                      </div>
+                      <div class="desktop-rectangle-8">
+                        <div class="desktop-rectangle-9"></div>
+                      </div>
+                    </div>
+                    <div class="desktop-tt-canva-rectangle">
+                      <div class="desktop-t-canva">
+                        <div class="desktop-canva">Canva</div>
+                      </div>
+                      <div class="desktop-rectangle-10">
+                        <div class="desktop-rectangle-11"></div>
+                      </div>
+                    </div>
+                    <div class="desktop-tt-figma-rectangle">
+                      <div class="desktop-t-figma">
+                        <div class="desktop-figma">Figma</div>
+                      </div>
+                      <div class="desktop-rectangle-12">
+                        <div class="desktop-rectangle-13"></div>
+                      </div>
+                    </div>
+                    <div class="desktop-tt-adobe-ilustrator-rectangle">
+                      <div class="desktop-t-adobe-ilustrator">
+                        <div class="desktop-adobe-ilustrator">
+                          Adobe Ilustrator
+                        </div>
+                      </div>
+                      <div class="desktop-rectangle-14">
+                        <div class="desktop-rectangle-15"></div>
+                      </div>
+                    </div>
+                    <div class="desktop-tt-adobe-photoshop-rectangle">
+                      <div class="desktop-t-adobe-photoshop">
+                        <div class="desktop-adobe-photoshop">
+                          Adobe Photoshop
+                        </div>
+                      </div>
+                      <div class="desktop-rectangle-16">
+                        <div class="desktop-rectangle-17"></div>
+                      </div>
+                    </div>
+                    <div class="desktop-tt-adobe-indesign-rectangle">
+                      <div class="desktop-t-adobe-indesign">
+                        <div class="desktop-adobe-indesign">Adobe Indesign</div>
+                      </div>
+                      <div class="desktop-rectangle-18">
+                        <div class="desktop-rectangle-19"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
