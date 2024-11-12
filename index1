@@ -14,6 +14,8 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #141414;
+            background-image: url('background-pattern.png'); /* Substitua pelo caminho da sua imagem de fundo */
+            background-size: cover;
             color: #fff;
             display: flex;
             justify-content: center;
@@ -26,6 +28,7 @@
             background-color: #1a1a1a;
             border: 2px solid #00ff00;
             padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
         }
 
         .header {
@@ -34,6 +37,7 @@
             align-items: center;
             padding-bottom: 20px;
             border-bottom: 2px solid #00ff00;
+            background-color: #1a1a1a;
         }
 
         .profile {
@@ -45,6 +49,7 @@
             height: 80px;
             border-radius: 50%;
             margin-bottom: 10px;
+            border: 2px solid #00ff00;
         }
 
         .contact {
@@ -64,6 +69,10 @@
         .projects, .skills {
             width: 50%;
             padding: 10px;
+            background-color: #1a1a1a;
+            border: 2px solid #00ff00;
+            border-radius: 8px;
+            margin: 0 10px;
         }
 
         .projects h2, .skills h2 {
@@ -72,11 +81,15 @@
             text-align: center;
             padding: 5px;
             margin-bottom: 15px;
+            border-radius: 4px;
         }
 
         .project-item {
             display: flex;
             margin-bottom: 15px;
+            background-color: #333;
+            padding: 5px;
+            border-radius: 5px;
         }
 
         .project-img {
@@ -84,6 +97,7 @@
             height: 50px;
             background-color: #ccc;
             margin-right: 10px;
+            border-radius: 5px;
         }
 
         .project-desc h3 {
@@ -115,7 +129,7 @@
     <div class="container">
         <div class="header">
             <div class="profile">
-                <img src="https://i.postimg.cc/43cH3Wf1/foto-blla-camera.png" alt="Foto de Isabella Pereira Moedano" class="profile-img">
+                <img src="profile.jpg" alt="Foto de Isabella Pereira Moedano" class="profile-img">
                 <h1>Isabella Pereira Moedano</h1>
                 <p>Brasil, São Paulo, São Paulo</p>
                 <p>ghjklçasodkpoqk</p>
@@ -125,7 +139,7 @@
                 <p>Telefone: (11) 98480-3345</p>
                 <p>Email: isabellapmoedano@gmail.com</p>
                 <div class="social-media">
-                    <a href="#"><img src="https://i.postimg.cc/855RzhYk/rb-136728.png" alt="Instagram"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
                     <a href="#"><img src="gmail-icon.png" alt="Gmail"></a>
                     <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
                 </div>
@@ -189,4 +203,3 @@
     </div>
 </body>
 </html>
-
