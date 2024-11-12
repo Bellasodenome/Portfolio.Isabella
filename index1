@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Isabella Pereira Moedano</title>
+    <title>Projetos e Skills</title>
     <style>
         * {
             margin: 0;
@@ -14,8 +14,6 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #141414;
-            background-image: url('background-pattern.png'); /* Substitua pelo caminho da sua imagem de fundo */
-            background-size: cover;
             color: #fff;
             display: flex;
             justify-content: center;
@@ -24,77 +22,41 @@
         }
 
         .container {
-            width: 800px;
-            background-color: #1a1a1a;
-            border: 2px solid #00ff00;
-            padding: 20px;
-            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
-        }
-
-        .header {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #00ff00;
-            background-color: #1a1a1a;
+            gap: 20px;
         }
 
-        .profile {
-            text-align: left;
-        }
-
-        .profile-img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            margin-bottom: 10px;
-            border: 2px solid #00ff00;
-        }
-
-        .contact {
-            text-align: right;
-        }
-
-        .social-media a {
-            margin: 0 5px;
-            color: #00ff00;
-        }
-
-        .content {
-            display: flex;
-            margin-top: 20px;
-        }
-
+        /* Estilo das colunas verdes */
         .projects, .skills {
-            width: 50%;
-            padding: 10px;
             background-color: #1a1a1a;
             border: 2px solid #00ff00;
+            width: 300px;
             border-radius: 8px;
-            margin: 0 10px;
+            padding: 15px;
         }
 
         .projects h2, .skills h2 {
             background-color: #00ff00;
             color: #000;
             text-align: center;
-            padding: 5px;
+            padding: 10px;
             margin-bottom: 15px;
             border-radius: 4px;
+            font-size: 1.5em;
         }
 
+        /* Estilo dos itens de projeto */
         .project-item {
             display: flex;
-            margin-bottom: 15px;
             background-color: #333;
-            padding: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
             border-radius: 5px;
         }
 
         .project-img {
             width: 70px;
-            height: 50px;
+            height: 70px;
             background-color: #ccc;
             margin-right: 10px;
             border-radius: 5px;
@@ -106,16 +68,18 @@
             margin-bottom: 5px;
         }
 
-        .skills .skill-item {
+        /* Estilo das habilidades e barras */
+        .skill-item {
             margin-bottom: 15px;
         }
 
         .skill-bar {
             background-color: #333;
-            height: 8px;
+            height: 10px;
             width: 100%;
             border-radius: 5px;
             overflow: hidden;
+            margin-top: 5px;
         }
 
         .skill-bar span {
@@ -127,77 +91,58 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="profile">
-                <img src="profile.jpg" alt="Foto de Isabella Pereira Moedano" class="profile-img">
-                <h1>Isabella Pereira Moedano</h1>
-                <p>Brasil, São Paulo, São Paulo</p>
-                <p>ghjklçasodkpoqk</p>
+        <!-- Coluna de Projetos -->
+        <div class="projects">
+            <h2>Projetos</h2>
+            <div class="project-item">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h3>Folder</h3>
+                    <p>dfjhajkdfhlkakdf</p>
+                </div>
             </div>
-            <div class="contact">
-                <p><strong>Contato</strong></p>
-                <p>Telefone: (11) 98480-3345</p>
-                <p>Email: isabellapmoedano@gmail.com</p>
-                <div class="social-media">
-                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
-                    <a href="#"><img src="gmail-icon.png" alt="Gmail"></a>
-                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <div class="project-item">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h3>Aplicativo - Solução de problema</h3>
+                    <p>dfjhajkdfhlkakdf</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-img"></div>
+                <div class="project-desc">
+                    <h3>Aplicativo - Show Luisa Sonza</h3>
+                    <p>dfjhajkdfhlkakdf</p>
                 </div>
             </div>
         </div>
-        
-        <div class="content">
-            <div class="projects">
-                <h2>Projetos</h2>
-                <div class="project-item">
-                    <div class="project-img"></div>
-                    <div class="project-desc">
-                        <h3>Folder</h3>
-                        <p>dfjhajkdfhlkakdf</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-img"></div>
-                    <div class="project-desc">
-                        <h3>Aplicativo - Solução de problema</h3>
-                        <p>dfjhajkdfhlkakdf</p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-img"></div>
-                    <div class="project-desc">
-                        <h3>Aplicativo - Show Luisa Sonza</h3>
-                        <p>dfjhajkdfhlkakdf</p>
-                    </div>
-                </div>
+
+        <!-- Coluna de Skills -->
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skill-item">
+                <p>Pacote Office</p>
+                <div class="skill-bar"><span style="width: 90%;"></span></div>
             </div>
-            
-            <div class="skills">
-                <h2>Skills</h2>
-                <div class="skill-item">
-                    <p>Pacote Office</p>
-                    <div class="skill-bar"><span style="width: 90%;"></span></div>
-                </div>
-                <div class="skill-item">
-                    <p>Canva</p>
-                    <div class="skill-bar"><span style="width: 75%;"></span></div>
-                </div>
-                <div class="skill-item">
-                    <p>Figma</p>
-                    <div class="skill-bar"><span style="width: 80%;"></span></div>
-                </div>
-                <div class="skill-item">
-                    <p>Adobe Illustrator</p>
-                    <div class="skill-bar"><span style="width: 70%;"></span></div>
-                </div>
-                <div class="skill-item">
-                    <p>Adobe Photoshop</p>
-                    <div class="skill-bar"><span style="width: 85%;"></span></div>
-                </div>
-                <div class="skill-item">
-                    <p>Adobe Indesign</p>
-                    <div class="skill-bar"><span style="width: 60%;"></span></div>
-                </div>
+            <div class="skill-item">
+                <p>Canva</p>
+                <div class="skill-bar"><span style="width: 75%;"></span></div>
+            </div>
+            <div class="skill-item">
+                <p>Figma</p>
+                <div class="skill-bar"><span style="width: 80%;"></span></div>
+            </div>
+            <div class="skill-item">
+                <p>Adobe Illustrator</p>
+                <div class="skill-bar"><span style="width: 70%;"></span></div>
+            </div>
+            <div class="skill-item">
+                <p>Adobe Photoshop</p>
+                <div class="skill-bar"><span style="width: 85%;"></span></div>
+            </div>
+            <div class="skill-item">
+                <p>Adobe Indesign</p>
+                <div class="skill-bar"><span style="width: 60%;"></span></div>
             </div>
         </div>
     </div>
