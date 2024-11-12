@@ -1,179 +1,192 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500"
-    />
-    <title>HTML Preview</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="compiled-styles.css" />
-  </head>
-  <body style="margin: 0px">
-    <!-- This only removes default margins in our renderer iframe, you may remove -->
-    <div id="firejet-html-app">
-      <div class="desktop-wrapper">
-        <div class="desktop-desktop">
-          <div class="desktop-image">
-            <div class="desktop-rectangle">
-              <div class="desktop-ttt-isabella-pereira-moedano-image-3contato">
-                <div class="desktop-tt-isabella-pereira-moedano-image-3contato">
-                  <div class="desktop-t-isabella-pereira-moedano-image">
-                    <div class="desktop-isabella-pereira-moedano">
-                      <p>Isabella Pereira Moedano</p>
-                    </div>
-                    <img
-                      src="/assets/image-1.png"
-                      loading="lazy"
-                      class="desktop-image-1"
-                    />
-                  </div>
-                  <div class="desktop-contato"><p>Contato</p></div>
-                </div>
-              </div>
-              <div class="desktop-tt-ghjkl-asodpkpoqk-trb_1367281tdocumentos-11tlinkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
-                <div class="desktop-t-ghjkl-asodpkpoqk">
-                  <div class="desktop-ghjkl-asodpkpoqk">
-                    <p>ghjklçasodpkpoqk</p>
-                  </div>
-                </div>
-                <div class="desktop-t-rb_1367281tdocumentos-11tlinkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
-                  <img
-                    src="/assets/rb_.png"
-                    loading="lazy"
-                    class="desktop-rb_"
-                  />
-                  <div class="desktop-t-documentos">
-                    <div class="desktop-documentos"></div>
-                  </div>
-                  <div class="desktop-t-linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png" >
-                    <img
-                      src="/assets/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"
-                      loading="lazy"
-                      class="desktop-linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="desktop-image-2"></div>
-              <img
-                src="/assets/image-3.png"
-                loading="lazy"
-                class="desktop-image-3"
-              />
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Isabella Pereira Moedano</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 800px;
+            background-color: #1a1a1a;
+            border: 2px solid #00ff00;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #00ff00;
+        }
+
+        .profile {
+            text-align: left;
+        }
+
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            text-align: right;
+        }
+
+        .social-media a {
+            margin: 0 5px;
+            color: #00ff00;
+        }
+
+        .content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .projects, .skills {
+            width: 50%;
+            padding: 10px;
+        }
+
+        .projects h2, .skills h2 {
+            background-color: #00ff00;
+            color: #000;
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        .project-item {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .project-img {
+            width: 70px;
+            height: 50px;
+            background-color: #ccc;
+            margin-right: 10px;
+        }
+
+        .project-desc h3 {
+            color: #00ff00;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .skills .skill-item {
+            margin-bottom: 15px;
+        }
+
+        .skill-bar {
+            background-color: #333;
+            height: 8px;
+            width: 100%;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .skill-bar span {
+            display: block;
+            height: 100%;
+            background-color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile">
+                <img src="profile.jpg" alt="Foto de Isabella Pereira Moedano" class="profile-img">
+                <h1>Isabella Pereira Moedano</h1>
+                <p>Brasil, São Paulo, São Paulo</p>
+                <p>ghjklçasodkpoqk</p>
             </div>
-            <div class="desktop-t-rectangle-2rectangle">
-              <div class="desktop-rectangle-1">
-                <div class="desktop-rectangle-2">
-                  <div class="desktop-t-projetos">
-                    <div class="desktop-projetos">Projetos</div>
-                  </div>
+            <div class="contact">
+                <p><strong>Contato</strong></p>
+                <p>Telefone: (11) 98480-3345</p>
+                <p>Email: isabellapmoedano@gmail.com</p>
+                <div class="social-media">
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="gmail-icon.png" alt="Gmail"></a>
+                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
                 </div>
-                <div class="desktop-tttt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
-                  <div class="desktop-ttt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
-                    <div class="desktop-tt-rectangle-7ttbla-bla-bla-dfghijokplfdkak-ltrectangle-8tbla-bla-bla-dfghijokplfdkak-ltrectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
-                      <div class="desktop-t-rectangle-7ttbla-bla-bla-dfghijokplfdkak-l" >
-                        <div class="desktop-rectangle-3"></div>
-                        <div class="desktop-tt-bla-bla-bla-dfghijokplfdkak-l">
-                          <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l">
-                            <div class="desktop-bla-bla-bla">bla bla bla</div>
-                            <div class="desktop-dfghijokplfdkak-l">
-                              <p>dfghijokplfdkakçl</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="desktop-t-rectangle-8tbla-bla-bla-dfghijokplfdkak-l" >
-                        <div class="desktop-rectangle-4"></div>
-                        <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l1">
-                          <div class="desktop-bla-bla-bla-1">bla bla bla</div>
-                          <div class="desktop-dfghijokplfdkak-l1">
-                            <p>dfghijokplfdkakçl</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="desktop-t-rectangle-9tbla-bla-bla-dfghijokplfdkak-l" >
-                        <div class="desktop-rectangle-5"></div>
-                        <div class="desktop-t-bla-bla-bla-dfghijokplfdkak-l2">
-                          <div class="desktop-bla-bla-bla-2">bla bla bla</div>
-                          <div class="desktop-dfghijokplfdkak-l2">
-                            <p>dfghijokplfdkakçl</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="desktop-rectangle-6">
-                <div class="desktop-rectangle-7">
-                  <div class="desktop-t-skills">
-                    <div class="desktop-skills">Skills</div>
-                  </div>
-                </div>
-                <div class="desktop-tttt-pacote-office-rectangle-20ttcanva-rectangle-10ttfigma-rectangle-11ttadobe-ilustrator-rectangle-12ttadobe-photoshop-rectangle-13ttadobe-indesign-rectangle" >
-                  <div class="desktop-ttt-pacote-office-rectangle-20ttcanva-rectangle-10ttfigma-rectangle-11ttadobe-ilustrator-rectangle-12ttadobe-photoshop-rectangle-13ttadobe-indesign-rectangle" >
-                    <div class="desktop-tt-pacote-office-rectangle">
-                      <div class="desktop-t-pacote-office">
-                        <div class="desktop-pacote-office">Pacote Office</div>
-                      </div>
-                      <div class="desktop-rectangle-8">
-                        <div class="desktop-rectangle-9"></div>
-                      </div>
-                    </div>
-                    <div class="desktop-tt-canva-rectangle">
-                      <div class="desktop-t-canva">
-                        <div class="desktop-canva">Canva</div>
-                      </div>
-                      <div class="desktop-rectangle-10">
-                        <div class="desktop-rectangle-11"></div>
-                      </div>
-                    </div>
-                    <div class="desktop-tt-figma-rectangle">
-                      <div class="desktop-t-figma">
-                        <div class="desktop-figma">Figma</div>
-                      </div>
-                      <div class="desktop-rectangle-12">
-                        <div class="desktop-rectangle-13"></div>
-                      </div>
-                    </div>
-                    <div class="desktop-tt-adobe-ilustrator-rectangle">
-                      <div class="desktop-t-adobe-ilustrator">
-                        <div class="desktop-adobe-ilustrator">
-                          Adobe Ilustrator
-                        </div>
-                      </div>
-                      <div class="desktop-rectangle-14">
-                        <div class="desktop-rectangle-15"></div>
-                      </div>
-                    </div>
-                    <div class="desktop-tt-adobe-photoshop-rectangle">
-                      <div class="desktop-t-adobe-photoshop">
-                        <div class="desktop-adobe-photoshop">
-                          Adobe Photoshop
-                        </div>
-                      </div>
-                      <div class="desktop-rectangle-16">
-                        <div class="desktop-rectangle-17"></div>
-                      </div>
-                    </div>
-                    <div class="desktop-tt-adobe-indesign-rectangle">
-                      <div class="desktop-t-adobe-indesign">
-                        <div class="desktop-adobe-indesign">Adobe Indesign</div>
-                      </div>
-                      <div class="desktop-rectangle-18">
-                        <div class="desktop-rectangle-19"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+        
+        <div class="content">
+            <div class="projects">
+                <h2>Projetos</h2>
+                <div class="project-item">
+                    <div class="project-img"></div>
+                    <div class="project-desc">
+                        <h3>Folder</h3>
+                        <p>dfjhajkdfhlkakdf</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-img"></div>
+                    <div class="project-desc">
+                        <h3>Aplicativo - Solução de problema</h3>
+                        <p>dfjhajkdfhlkakdf</p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-img"></div>
+                    <div class="project-desc">
+                        <h3>Aplicativo - Show Luisa Sonza</h3>
+                        <p>dfjhajkdfhlkakdf</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skill-item">
+                    <p>Pacote Office</p>
+                    <div class="skill-bar"><span style="width: 90%;"></span></div>
+                </div>
+                <div class="skill-item">
+                    <p>Canva</p>
+                    <div class="skill-bar"><span style="width: 75%;"></span></div>
+                </div>
+                <div class="skill-item">
+                    <p>Figma</p>
+                    <div class="skill-bar"><span style="width: 80%;"></span></div>
+                </div>
+                <div class="skill-item">
+                    <p>Adobe Illustrator</p>
+                    <div class="skill-bar"><span style="width: 70%;"></span></div>
+                </div>
+                <div class="skill-item">
+                    <p>Adobe Photoshop</p>
+                    <div class="skill-bar"><span style="width: 85%;"></span></div>
+                </div>
+                <div class="skill-item">
+                    <p>Adobe Indesign</p>
+                    <div class="skill-bar"><span style="width: 60%;"></span></div>
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+</body>
 </html>
+
