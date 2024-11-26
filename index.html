@@ -29,7 +29,6 @@
             padding: 20px;
         }
 
-        /* Caixa retangular acima das colunas */
         .header-box {
             background-color: #1a1a1a;
             border: 2px solid #9CF32A;
@@ -54,7 +53,7 @@
         .header-text {
             flex-grow: 1;
             margin-left: 20px;
-            text-align: left; /* Alinha o texto à esquerda */
+            text-align: left;
         }
 
         .header-contact {
@@ -65,7 +64,6 @@
             margin-bottom: 10px;
         }
 
-        /* Estilo das colunas */
         .columns {
             display: flex;
             gap: 20px;
@@ -76,7 +74,7 @@
             border: 2px solid #9CF32A;
             border-radius: 8px;
             padding: 15px;
-            width: 100%;  /* Aumenta a largura para 100% da largura disponível */
+            width: 100%;
         }
 
         .projects h2 {
@@ -89,15 +87,26 @@
             font-size: 1.5em;
         }
 
-        /* Estilo dos itens de projeto */
         .project-item {
             display: flex;
             background-color: #333;
             padding: 10px;
             margin-bottom: 15px;
             border-radius: 5px;
-            min-height: 150px; /* Altura mínima para os itens */
+            min-height: 150px;
             align-items: center;
+            cursor: pointer;
+            border: none;
+            text-align: left;
+            width: 100%;
+        }
+
+        .project-item:hover {
+            background-color: #444;
+        }
+
+        .project-item:active {
+            transform: scale(0.98);
         }
 
         .project-img {
@@ -123,14 +132,11 @@
 </head>
 <body>
     <div class="container">
-        <!-- Caixa retangular no topo -->
         <div class="header-box">
             <img src="https://i.postimg.cc/3xT6dKDq/foto-blla-camera.png" alt="Foto de perfil">
             <div class="header-text">
                 <h1>Isabella Pereira Moedano</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia quam vitae dolor faucibus, vel feugiat eros lacinia. Donec fringilla velit ac efficitur venenatis. Nulla facilisi. Cras ut massa nec metus interdum hendrerit. Nam vel augue elit. Etiam non lorem sit amet mi gravida maximus sit amet non nisi. Ut tincidunt sit amet tortor eu fermentum. Integer eget metus ut augue vehicula lacinia. Sed aliquet, risus sit amet suscipit scelerisque, justo purus suscipit sapien, a tincidunt libero nulla vel risus.
-                </p>
+                <p>Lorem ipsum dolor sit amet...</p>
             </div>
             <div class="header-contact">
                 <p><strong>Contato:</strong></p>
@@ -141,37 +147,36 @@
         </div>
 
         <div class="columns">
-            <!-- Coluna de Projetos -->
             <div class="projects">
                 <h2>Projetos</h2>
-                <div class="project-item">
+                <button class="project-item" onclick="window.location.href='link_para_folder.html'">
                     <div class="project-img"></div>
                     <div class="project-desc">
                         <h3>Folder</h3>
                         <p>Descrição do projeto</p>
                     </div>
-                </div>
-                <div class="project-item">
+                </button>
+                <button class="project-item" onclick="window.location.href='link_para_aplicativo1.html'">
                     <div class="project-img"></div>
                     <div class="project-desc">
                         <h3>Aplicativo - Solução de problema</h3>
                         <p>Descrição do projeto</p>
                     </div>
-                </div>
-                <div class="project-item">
+                </button>
+                <button class="project-item" onclick="window.location.href='link_para_show.html'">
                     <div class="project-img"></div>
                     <div class="project-desc">
                         <h3>Aplicativo - Show Luisa Sonza</h3>
                         <p>Descrição do projeto</p>
                     </div>
-                </div>
-                <div class="project-item">
+                </button>
+                <button class="project-item" onclick="window.location.href='link_para_ensaio.html'">
                     <div class="project-img"></div>
                     <div class="project-desc">
                         <h3>Ensaio Fotográfico</h3>
                         <p>Projeto criativo focado na captura de momentos únicos e artísticos.</p>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     </div>
