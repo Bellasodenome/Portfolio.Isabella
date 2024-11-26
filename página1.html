@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+    <style>
+        body {
+            background-image: url("https://i.postimg.cc/7Ps0zM5f/De-Watermark-ai-1732019428202.png");
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .project-box {
+            width: 938px; /* Ajustando a largura */
+            height: 975px; /* Ajustando a altura */
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.4);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Cabeçalho da caixa do projeto */
+        .project-header {
+            background-color: #9CF32A;
+            color: #000;
+            display: flex;
+            justify-content: center; /* Centraliza o conteúdo horizontalmente */
+            padding: 10px;
+            border-radius: 4px;
+            position: relative;
+        }
+
+        .project-header h2 {
+            font-size: 1.5em; /* Ajustando o tamanho do título */
+            margin: 0;
+            text-align: center; /* Centraliza o texto dentro do h2 */
+        }
+
+        .close-button {
+            background-color: #9CF32A;
+            color: #000;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            position: absolute;
+            right: 10px; /* Coloca o botão no canto direito */
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        /* Caixa de Imagens */
+        .image-carousel {
+            width: 100%;
+            height: 250px; /* Ajustado para o tamanho da caixa */
+            display: flex;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .image-carousel img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .carousel-container {
+            display: flex;
+            width: 400%;
+            transition: transform 0.5s ease;
+        }
+
+        .carousel-button {
+            background-color: #9CF32A;
+            color: #000;
+            border: none;
+            font-size: 1.5em;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .prev-button {
+            left: 10px;
+        }
+
+        .next-button {
+            right: 10px;
+        }
+
+        /* Corpo da caixa de projeto */
+        .project-content {
+            background-color: #333;
+            flex-grow: 1;
+            border-radius: 4px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Base de Texto */
+        .project-description {
+            color: #fff;
+            font-size: 1em;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Imagem de fundo da caixa */
+        .project-content:before {
+            content: "";
+            position: absolute;
+            background-image: url("https://i.postimg.cc/7Ps0zM5f/De-Watermark-ai-1732019428202.png");
+            background-size: cover;
+            background-position: center;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.1;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="project-box">
+        <!-- Cabeçalho do Projeto -->
+        <div class="project-header">
+            <h2>Projeto 1</h2>
+            <button class="close-button" onclick="goToPage()">X</button>
+        </div>
+        
+        <!-- Caixa de Imagens -->
+        <div class="project-content">
+            <div class="image-carousel">
+                <div class="carousel-container" id="carousel">
+                    <img src="https://via.placeholder.com/938x250?text=Imagem+1" alt="Imagem 1">
+                    <img src="https://via.placeholder.com/938x250?text=Imagem+2" alt="Imagem 2">
+                    <img src="https://via.placeholder.com/938x250?text=Imagem+3" alt="Imagem 3">
+                    <img src="https://via.placeholder.com/938x250?text=Imagem+4" alt="Imagem 4">
+                </div>
+            </div>
+            
+            <!-- Botões de Navegação -->
+            <button class="carousel-button prev-button" onclick="prevImage()">❮</button>
+            <button class="carousel-button next-button" onclick="nextImage()">❯</button>
+
+            <!-- Texto Lorem Ipsum -->
+            <div class="project-description">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia quam vitae dolor faucibus, vel feugiat eros lacinia. Donec fringilla velit ac efficitur venenatis. Nulla facilisi. Cras ut massa nec metus interdum hendrerit. Nam vel augue elit. Etiam non lorem sit amet mi gravida maximus sit amet non nisi. Ut tincidunt sit amet tortor eu fermentum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Função para redirecionar para a página
+        function goToPage() {
+            window.location.href = 'sua_pagina.html';  // Substitua 'sua_pagina.html' pelo URL da página que você quer redirecionar
+        }
+
+        // Funções para navegar entre as imagens
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.image-carousel img');
+        const carouselContainer = document.getElementById('carousel');
+
+        function prevImage() {
+            if (currentIndex > 0) {
+                currentIndex--;
+            } else {
+                currentIndex = images.length - 1;
+            }
+            updateCarousel();
+        }
+
+        function nextImage() {
+            if (currentIndex < images.length - 1) {
+                currentIndex++;
+            } else {
+                currentIndex = 0;
+            }
+            updateCarousel();
+        }
+
+        function updateCarousel() {
+            const offset = -currentIndex * 100;
+            carouselContainer.style.transform = translateX(${offset}%);
+        }
+    </script>
+
+</body>
+</html>
