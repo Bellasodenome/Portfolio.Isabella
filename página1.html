@@ -175,9 +175,9 @@
     </div>
 
     <script>
-        // Função para redirecionar para a página
+        // Função para redirecionar para a página index.html
         function goToPage() {
-            window.location.href = 'sua_pagina.html';  // Substitua 'sua_pagina.html' pelo URL da página que você quer redirecionar
+            window.location.href = 'index.html';  // Substituímos pela URL da página desejada
         }
 
         // Funções para navegar entre as imagens
@@ -205,7 +205,7 @@
 
         function updateCarousel() {
             const offset = -currentIndex * 100;
-            carouselContainer.style.transform = translateX(${offset}%);
+            carouselContainer.style.transform = `translateX(${offset}%)`;
         }
     </script>
 
